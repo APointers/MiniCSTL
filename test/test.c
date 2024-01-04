@@ -12,8 +12,12 @@ int main()
 	ckernel_list_test();
 
 	cdict_test();
+	
 	dynamic_array_test();
+	
 	hash_set_test();
+
+	queue_test();
 
 	return 0;
 }

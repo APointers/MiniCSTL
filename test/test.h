@@ -6,6 +6,7 @@
 #include "cdict.h"
 #include "dynamic_array.h"
 #include "hash_set.h"
+#include "cqueue.h"
 
 
 #ifdef __cplusplus
@@ -25,6 +26,8 @@ int cdict_test();
 int hash_set_test();
 
 int stack_test();
+
+int queue_test();
 
 
 #ifdef __cplusplus
