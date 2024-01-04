@@ -37,11 +37,6 @@ typedef struct carray_tag {
 }carray;
 
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif // __cplusplus
-
 	/**
 	* create_carray: Create an array of memory contiguous array, _this.
 	* @_this: carray*  _this.
@@ -338,10 +333,5 @@ extern "C"
 		printf("\n"); \
 	} while (0)
 
-
-
-#ifdef __cplusplus
-}
-#endif // __cplusplus
 
 #endif // !__CARRAY_H__
